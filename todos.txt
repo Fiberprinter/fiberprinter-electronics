@@ -1,2 +1,3 @@
 Sample & Hold unit bei temp messungen einbauen
 pmos treiber einbauen
+create pcb review
