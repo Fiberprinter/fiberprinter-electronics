@@ -2145,6 +2145,28 @@
 			)
 		)
 	)
+	(global_label "DIR"
+		(shape input)
+		(at 154.94 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "176302dc-5961-4a79-a821-aea76555b8a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.07 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FAN_2_PWM"
 		(shape input)
 		(at 50.8 107.95 180)
@@ -2279,7 +2301,7 @@
 	)
 	(global_label "BLT_Switch"
 		(shape input)
-		(at 154.94 48.26 0)
+		(at 154.94 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2289,29 +2311,7 @@
 		)
 		(uuid "438b0046-899a-48f3-9dd0-144907b18bc1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.2666 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BLT_Servo"
-		(shape input)
-		(at 154.94 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "50c03a61-84fb-4b70-b08c-f860da302de1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.3594 101.6 0)
+			(at 168.2666 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2389,7 +2389,7 @@
 	)
 	(global_label "RESET"
 		(shape input)
-		(at 154.94 40.64 0)
+		(at 154.94 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2399,7 +2399,7 @@
 		)
 		(uuid "69ced131-77bb-4e47-8f13-986def7f1253")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.6703 40.64 0)
+			(at 163.6703 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2431,7 +2431,7 @@
 			)
 		)
 	)
-	(global_label "RESET"
+	(global_label "SCL"
 		(shape input)
 		(at 154.94 96.52 0)
 		(fields_autoplaced yes)
@@ -2441,9 +2441,9 @@
 			)
 			(justify left)
 		)
-		(uuid "76acd47c-cb1d-4879-a628-f57a4163b023")
+		(uuid "80126d74-0497-4d39-935a-4e384dd11639")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.6703 96.52 0)
+			(at 161.4328 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2453,9 +2453,9 @@
 			)
 		)
 	)
-	(global_label "BLT_Switch"
+	(global_label "RESET"
 		(shape input)
-		(at 154.94 104.14 0)
+		(at 154.94 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2463,9 +2463,9 @@
 			)
 			(justify left)
 		)
-		(uuid "7ca8d0f3-5492-418d-8eb1-5f731f6d347f")
+		(uuid "8ed70844-629d-4765-b561-a93023f2f5aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.2666 104.14 0)
+			(at 163.6703 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2543,7 +2543,7 @@
 	)
 	(global_label "DIR"
 		(shape input)
-		(at 154.94 43.18 0)
+		(at 154.94 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2553,7 +2553,7 @@
 		)
 		(uuid "9de80a34-63d2-4bb9-99e5-31c0d2982f4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.07 43.18 0)
+			(at 161.07 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,7 +2653,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 154.94 35.56 0)
+		(at 154.94 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2663,7 +2663,7 @@
 		)
 		(uuid "ae3a045b-dce9-4a4d-bedd-a07fd41fc864")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.4933 35.56 0)
+			(at 161.4933 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2695,31 +2695,9 @@
 			)
 		)
 	)
-	(global_label "SDA"
-		(shape input)
-		(at 154.94 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b427371f-7e5d-4407-90d5-a29e1428f462")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.4933 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SCL"
 		(shape input)
-		(at 154.94 50.8 0)
+		(at 154.94 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2729,7 +2707,7 @@
 		)
 		(uuid "b6051a97-38be-4821-8973-523958665db5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.4328 50.8 0)
+			(at 161.4328 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2805,9 +2783,9 @@
 			)
 		)
 	)
-	(global_label "SCL"
+	(global_label "BLT_Servo"
 		(shape input)
-		(at 154.94 106.68 0)
+		(at 154.94 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2815,9 +2793,9 @@
 			)
 			(justify left)
 		)
-		(uuid "c3b8b063-d787-4d97-9451-de1774057da4")
+		(uuid "c38e85ba-ab54-46ae-9e15-2ed39b25c98a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.4328 106.68 0)
+			(at 167.3594 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2829,7 +2807,7 @@
 	)
 	(global_label "BLT_Servo"
 		(shape input)
-		(at 154.94 45.72 0)
+		(at 154.94 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2839,7 +2817,7 @@
 		)
 		(uuid "cafa2577-076f-4662-b33e-d5665978bb2b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.3594 45.72 0)
+			(at 167.3594 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2889,28 +2867,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DIR"
-		(shape input)
-		(at 154.94 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cfadc2cd-b407-40f6-9aa4-a5f7904f6f52")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.07 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -2972,6 +2928,50 @@
 		(uuid "e02d882b-de63-4d12-b621-9b5e98826a69")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 84.0233 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BLT_Switch"
+		(shape input)
+		(at 154.94 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5cee804-9524-455d-a1cb-06a4a6c56100")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.2666 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 154.94 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f1254fac-63f7-4c98-9973-890644c71d06")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.4933 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3116,7 +3116,7 @@
 	)
 	(symbol
 		(lib_id "power:+5C")
-		(at 154.94 38.1 270)
+		(at 154.94 35.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3124,7 +3124,7 @@
 		(dnp no)
 		(uuid "0d9b11fa-173e-4f33-9f7b-84e3478876b8")
 		(property "Reference" "#PWR046"
-			(at 151.13 38.1 0)
+			(at 151.13 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3133,7 +3133,7 @@
 			)
 		)
 		(property "Value" "+5V_USBC"
-			(at 158.75 38.1001 90)
+			(at 158.75 35.5601 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3142,7 +3142,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 38.1 0)
+			(at 154.94 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3151,7 +3151,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 38.1 0)
+			(at 154.94 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3160,7 +3160,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5C\""
-			(at 154.94 38.1 0)
+			(at 154.94 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3175,72 +3175,6 @@
 			(project "2nd-mainboard-pcb"
 				(path "/6926a609-8b92-4b3a-88c8-3d023174b977/28638253-982c-4307-a7ba-08631badaf4a"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5C")
-		(at 154.94 93.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "211b7b51-1fb1-485c-a780-867c571f5ec4")
-		(property "Reference" "#PWR054"
-			(at 151.13 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V_USBC"
-			(at 158.75 93.9801 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5C\""
-			(at 154.94 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5fd4cde5-756a-411a-aa3c-a14052cef08c")
-		)
-		(instances
-			(project "2nd-mainboard-pcb"
-				(path "/6926a609-8b92-4b3a-88c8-3d023174b977/28638253-982c-4307-a7ba-08631badaf4a"
-					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -4490,6 +4424,72 @@
 			(project "2nd-mainboard-pcb"
 				(path "/6926a609-8b92-4b3a-88c8-3d023174b977/28638253-982c-4307-a7ba-08631badaf4a"
 					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5C")
+		(at 154.94 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2fb6d24-7efa-4980-91b7-9564325b4414")
+		(property "Reference" "#PWR054"
+			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_USBC"
+			(at 158.75 91.4401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5C\""
+			(at 154.94 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b119c97-3f7b-405b-93ad-260da5f8d149")
+		)
+		(instances
+			(project "2nd-mainboard-pcb"
+				(path "/6926a609-8b92-4b3a-88c8-3d023174b977/28638253-982c-4307-a7ba-08631badaf4a"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
