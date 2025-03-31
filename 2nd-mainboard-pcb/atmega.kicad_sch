@@ -1942,16 +1942,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 66.04) (xy 97.79 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3383ec0f-70d2-488e-bb8b-93f6fb1acc7d")
-	)
-	(wire
-		(pts
 			(xy 92.71 96.52) (xy 99.06 96.52)
 		)
 		(stroke
@@ -1999,16 +1989,6 @@
 			(type default)
 		)
 		(uuid "47f8f2f2-fe72-480f-b95d-e0f9da857631")
-	)
-	(wire
-		(pts
-			(xy 104.14 63.5) (xy 96.52 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b677ad9-af7a-4a99-95a2-763cda778992")
 	)
 	(wire
 		(pts
@@ -2142,6 +2122,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 63.5) (xy 104.14 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c67ae1b-2994-4d79-8ff8-a79473f2aea7")
+	)
+	(wire
+		(pts
 			(xy 97.79 68.58) (xy 92.71 68.58)
 		)
 		(stroke
@@ -2179,6 +2169,16 @@
 			(type default)
 		)
 		(uuid "862eceba-396a-446b-9ca5-1af669b86511")
+	)
+	(wire
+		(pts
+			(xy 97.79 66.04) (xy 104.14 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d40af8f-4d90-4b9b-afe4-db1cc9acfde8")
 	)
 	(wire
 		(pts
@@ -2526,7 +2526,7 @@
 	)
 	(global_label "FAN_01_PWM_counterclockwise"
 		(shape input)
-		(at 104.14 66.04 0)
+		(at 104.14 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2536,7 +2536,7 @@
 		)
 		(uuid "0d3d7156-9b91-4e4a-8080-1f8b3eafb69b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.3351 66.04 0)
+			(at 136.3351 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2834,7 +2834,7 @@
 	)
 	(global_label "FAN_01_PWM_clockwise"
 		(shape input)
-		(at 104.14 63.5 0)
+		(at 104.14 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2844,7 +2844,7 @@
 		)
 		(uuid "66604c36-07d3-47c7-ab94-cc56693fae65")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.199 63.5 0)
+			(at 129.199 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
