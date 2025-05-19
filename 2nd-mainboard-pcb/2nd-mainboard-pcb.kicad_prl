@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 1,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
@@ -100,7 +100,7 @@
       "unconnected-(U5-CBUS0-Pad23)",
       "unconnected-(U5-RTS-Pad3)",
       "unconnected-(U5-CBUS2-Pad13)",
-      "unconnected-(U5-DTR-Pad2)",
+      "Net-(A1-~{RST})",
       "unconnected-(U5-TEST-Pad26)",
       "unconnected-(U5-CTS-Pad11)",
       "unconnected-(U5-RI-Pad6)",

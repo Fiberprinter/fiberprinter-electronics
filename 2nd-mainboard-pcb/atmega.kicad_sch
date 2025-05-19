@@ -1922,6 +1922,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 101.6) (xy 109.22 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28186046-a987-4356-a77a-1ed48f0524b5")
+	)
+	(wire
+		(pts
 			(xy 198.12 74.93) (xy 198.12 73.66)
 		)
 		(stroke
@@ -2382,7 +2392,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 101.6) (xy 99.06 101.6)
+			(xy 92.71 101.6) (xy 96.52 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2482,7 +2492,7 @@
 	)
 	(global_label "RESET"
 		(shape input)
-		(at 99.06 101.6 0)
+		(at 109.22 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2492,7 +2502,7 @@
 		)
 		(uuid "009f7b5d-a956-4348-b4a8-19770aa5bc8b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.7903 101.6 0)
+			(at 117.9503 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5247,6 +5257,73 @@
 			(project "2nd-mainboard-pcb"
 				(path "/6926a609-8b92-4b3a-88c8-3d023174b977/2814f85c-0b7e-4ab3-b3e5-bcf29424baab"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 100.33 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eff9770d-ae5e-41db-bf5d-2facc0068139")
+		(property "Reference" "R18"
+			(at 98.552 103.632 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 101.854 103.632 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 100.33 103.378 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 100.33 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "167bf5b5-a4fa-4ed8-8e58-6fca98f80594")
+		)
+		(pin "2"
+			(uuid "7176bf75-e803-4aa0-a847-a24e7bf19069")
+		)
+		(instances
+			(project ""
+				(path "/6926a609-8b92-4b3a-88c8-3d023174b977/2814f85c-0b7e-4ab3-b3e5-bcf29424baab"
+					(reference "R18")
 					(unit 1)
 				)
 			)

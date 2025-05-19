@@ -805,6 +805,84 @@
           "label": "Availability",
           "name": "Availability",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PART-NUMBER",
+          "name": "PART-NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L",
+          "name": "L",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PCB-CABLE-PANEL",
+          "name": "PCB-CABLE-PANEL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PINS",
+          "name": "PINS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PITCH",
+          "name": "PITCH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DATASHEET-URL",
+          "name": "DATASHEET-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CONTACT-RESISTANCE",
+          "name": "CONTACT-RESISTANCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MOUNT",
+          "name": "MOUNT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IR",
+          "name": "IR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TYPE",
+          "name": "TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "WORKING-VOLTAGE",
+          "name": "WORKING-VOLTAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGING",
+          "name": "PACKAGING",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "GENDER",
+          "name": "GENDER",
+          "show": false
         }
       ],
       "filter_string": "",

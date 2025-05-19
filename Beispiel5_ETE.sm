@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?application progid="SMath Solver" version="1.3.0.9126"?>
+<worksheet xmlns="http://smath.info/schemas/worksheet/1.0">
+  <settings ppi="96">
+    <identity>
+      <id>6ae61bdd-8473-49cd-9e70-cd704252e3cd</id>
+      <revision>2</revision>
+    </identity>
+    <calculation>
+      <precision>4</precision>
+      <exponentialThreshold>5</exponentialThreshold>
+      <trailingZeros>false</trailingZeros>
+      <significantDigitsMode>false</significantDigitsMode>
+      <mixedNumbers>false</mixedNumbers>
+      <roundingMode>0</roundingMode>
+      <approximateEqualAccuracy>0</approximateEqualAccuracy>
+      <fractions>decimal</fractions>
+    </calculation>
+    <pageModel active="false" viewMode="2" printGrid="false" printAreas="true" simpleEqualsOnly="false" printBackgroundImages="true" hideElementsHighlightings="true">
+      <paper id="1" orientation="Portrait" width="850" height="1100" />
+      <margins left="39" right="39" top="49" bottom="49" />
+      <header alignment="Center" color="#a9a9a9">&amp;[DATE] &amp;[TIME] - &amp;[FILENAME]</header>
+      <footer alignment="Center" color="#a9a9a9">&amp;[PAGENUM] / &amp;[COUNT]</footer>
+      <backgrounds />
+    </pageModel>
+    <dependencies>
+      <assembly name="SMath Core" version="1.73.9126.0" guid="a37cba83-b69c-4c71-9992-55ff666763bd" />
+      <assembly name="MathRegion" version="1.73.9126.0" guid="02f1ab51-215b-466e-a74d-5d8b1cf85e8d" />
+      <assembly name="TextRegion" version="1.73.9126.0" guid="485d28c5-349a-48b6-93be-12a35a1c1e39" />
+    </dependencies>
+  </settings>
+  <regions type="content">
+    <region left="0" top="0" width="79" height="30" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">e</e>
+          <e type="operand">U.e</e>
+          <e type="operand">r</e>
+          <e type="operator" args="2">-</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="27" width="86" height="33" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">U.a</e>
+          <e type="operand">e</e>
+          <e type="operand">k</e>
+          <e type="operand">p</e>
+          <e type="function" args="2">el</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="54" width="58" height="47" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">r</e>
+          <e type="operand">U.a</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="99" width="54" height="53" color="#000000" fontSize="10">
+      <math error="68" errorLocation="2">
+        <input>
+          <e type="operand">U.a</e>
+          <e type="operand">U.e</e>
+          <e type="operator" args="2">/</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="153" width="33" height="23" color="#000000" fontSize="10">
+      <text lang="eng" fontFamily="Arial" fontSize="10">
+        <content>
+          <p>a)  </p>
+        </content>
+      </text>
+    </region>
+    <region left="0" top="180" width="79" height="30" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">e</e>
+          <e type="operand">U.e</e>
+          <e type="operand">r</e>
+          <e type="operator" args="2">-</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="252" top="180" width="151" height="32" color="#000000" fontSize="10">
+      <math error="68" errorLocation="2">
+        <input>
+          <e type="operand">100</e>
+          <e type="operand" style="unit">dB</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">20</e>
+          <e type="operand">k.p</e>
+          <e type="function" args="1">log</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="207" width="108" height="47" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">e</e>
+          <e type="operand">U.e</e>
+          <e type="operand">e</e>
+          <e type="operand">k.p</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">-</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="252" top="207" width="110" height="32" color="#000000" fontSize="10">
+      <math error="68" errorLocation="2">
+        <input>
+          <e type="operand">5</e>
+          <e type="operand" style="unit">dB</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">k.p</e>
+          <e type="function" args="1">log</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="252" top="234" width="70" height="39" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">k.p</e>
+          <e type="operand">10</e>
+          <e type="operand">5</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="252" width="101" height="47" color="#000000" fontSize="10">
+      <math error="68" errorLocation="6">
+        <input>
+          <e type="operand">e</e>
+          <e type="operand">e</e>
+          <e type="operand">k.p</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">U.e</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="297" width="113" height="49" color="#000000" fontSize="10">
+      <math error="68" errorLocation="7">
+        <input>
+          <e type="operand">e</e>
+          <e type="operand">1</e>
+          <e type="operand">k.p</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">+</e>
+          <e type="bracket">(</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">U.e</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="342" width="111" height="64" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">e</e>
+          <e type="operand">U.e</e>
+          <e type="operand">1</e>
+          <e type="operand">1</e>
+          <e type="operand">k.p</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">+</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="405" width="121" height="59" color="#000000" fontSize="10">
+      <math error="68" errorLocation="2">
+        <input>
+          <e type="operand">e</e>
+          <e type="operand">U.e</e>
+          <e type="operator" args="2">/</e>
+          <e type="operand">1</e>
+          <e type="operand">1</e>
+          <e type="operand">1</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">/</e>
+          <e type="operand">10</e>
+          <e type="operand">5</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">+</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="459" width="126" height="47" color="#000000" fontSize="10">
+      <math error="68" errorLocation="2">
+        <input>
+          <e type="operand">e</e>
+          <e type="operand">U.e</e>
+          <e type="operator" args="2">/</e>
+          <e type="operand">0.00001999</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="504" width="115" height="47" color="#000000" fontSize="10">
+      <math error="68" errorLocation="2">
+        <input>
+          <e type="operand">e</e>
+          <e type="operand">U.e</e>
+          <e type="operator" args="2">/</e>
+          <e type="operand">0.01999</e>
+          <e type="operand" style="unit">‰</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="558" width="26" height="23" color="#000000" fontSize="10">
+      <text lang="eng" fontFamily="Arial" fontSize="10">
+        <content>
+          <p>b)</p>
+        </content>
+      </text>
+    </region>
+    <region left="0" top="585" width="494" height="53" color="#000000" fontSize="10">
+      <text lang="eng" fontFamily="Arial" fontSize="10">
+        <content>
+          <p>Die geschlossene Schleifenverstärkung ergibt sich durch die Rückkopplung <br />des Ausgangssignals auf den invertierenden Eingang des OPVs (Minus-Eingang)<br />und erlaubt die gezielte Einstellung des Verhältnisses von Ua/Ue</p>
+        </content>
+      </text>
+    </region>
+  </regions>
+</worksheet>

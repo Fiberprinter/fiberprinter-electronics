@@ -2655,6 +2655,10 @@
 		(uuid "67320b7e-a246-4347-883c-6019106a1b6e")
 	)
 	(no_connect
+		(at 170.18 72.39)
+		(uuid "7a345516-cca1-4672-b3a9-3cab4e9aa9bf")
+	)
+	(no_connect
 		(at 170.18 90.17)
 		(uuid "8691e623-bd36-481a-81d0-0be6c8dd28dc")
 	)
@@ -2665,10 +2669,6 @@
 	(no_connect
 		(at 210.82 90.17)
 		(uuid "b90984a1-b709-41b9-b54d-af0441292556")
-	)
-	(no_connect
-		(at 210.82 64.77)
-		(uuid "eb0441c3-8c54-40a0-a22c-59f5568efc63")
 	)
 	(no_connect
 		(at 210.82 82.55)
@@ -2716,6 +2716,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 64.77) (xy 227.33 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dd829c8-2f09-4dc2-a446-5369358637d4")
+	)
+	(wire
+		(pts
 			(xy 52.07 53.34) (xy 68.58 53.34)
 		)
 		(stroke
@@ -2743,6 +2753,16 @@
 			(type default)
 		)
 		(uuid "2924315c-8dc3-44d6-98e7-b0d707904065")
+	)
+	(wire
+		(pts
+			(xy 234.95 64.77) (xy 241.3 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a732b7f-1040-490d-9643-b2ac92c5124f")
 	)
 	(wire
 		(pts
@@ -3076,13 +3096,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 72.39) (xy 170.18 72.39)
+			(xy 210.82 64.77) (xy 214.63 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca0e1927-b62a-41c3-90da-601a9d3a894c")
+		(uuid "cce37aaa-5027-47ea-8ade-83e15a24019f")
 	)
 	(wire
 		(pts
@@ -3213,6 +3233,28 @@
 			(type default)
 		)
 		(uuid "ff74132c-5623-401e-b096-d679a3b5dbfb")
+	)
+	(global_label "RESET"
+		(shape input)
+		(at 241.3 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f4aa289-0585-4636-a39a-f362a7d47ae6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.0303 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "USBD+"
 		(shape input)
@@ -3359,28 +3401,6 @@
 		(uuid "ca641a53-4d85-4ab5-b091-3e882834095d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 169.0697 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RESET"
-		(shape input)
-		(at 166.37 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ff3bb254-35e4-4769-9fd5-52bc07006510")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.6397 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4130,6 +4150,73 @@
 			(project "2nd-mainboard-pcb"
 				(path "/6926a609-8b92-4b3a-88c8-3d023174b977/c1b5568e-d56d-48b3-9b9c-ea1ab28283d3"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 218.44 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "416815f3-8c03-428f-b6a6-433ddeaf6202")
+		(property "Reference" "R20"
+			(at 218.44 60.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 218.44 62.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 218.44 66.548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 218.44 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c50d1aa3-9b59-4ca0-82c9-7f60c69f312c")
+		)
+		(pin "2"
+			(uuid "626ef435-d4bc-4fd1-afa9-2f2b9a16c103")
+		)
+		(instances
+			(project ""
+				(path "/6926a609-8b92-4b3a-88c8-3d023174b977/c1b5568e-d56d-48b3-9b9c-ea1ab28283d3"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -5198,6 +5285,74 @@
 			(project "2nd-mainboard-pcb"
 				(path "/6926a609-8b92-4b3a-88c8-3d023174b977/c1b5568e-d56d-48b3-9b9c-ea1ab28283d3"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 231.14 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8e8fb9f-a817-4797-980e-907b7a8b630a")
+		(property "Reference" "C3"
+			(at 231.14 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 231.14 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 234.95 63.8048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 231.14 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76bb42b5-5099-4e8a-a67f-f7595310913d")
+		)
+		(pin "2"
+			(uuid "b26b0ef3-ed71-48d7-827f-f0f9fa7ffba6")
+		)
+		(instances
+			(project "2nd-mainboard-pcb"
+				(path "/6926a609-8b92-4b3a-88c8-3d023174b977/c1b5568e-d56d-48b3-9b9c-ea1ab28283d3"
+					(reference "C3")
 					(unit 1)
 				)
 			)
