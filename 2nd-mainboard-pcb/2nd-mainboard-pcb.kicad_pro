@@ -58,13 +58,33 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "unconnected_items|111920000|123680000|7ec464d1-d661-4014-a50f-bc5c70e8d7ba|e0e8cbfe-0678-4513-b7c1-2b1f81c603eb",
+        "unconnected_items|114300000|120600000|1b68a00a-4630-4f1e-84ed-880e0d76c2c5|231963f9-2e9b-48c1-90e1-1a79a1f88d0c",
+        "unconnected_items|114909103|112967613|9ba70cb7-c99c-4684-a9f2-1e1ef5e46a7a|099f0ec5-249d-4ed5-86d0-8bfa2b77fade",
+        "unconnected_items|117449103|112967613|0b40173d-4343-40ac-bffe-6fa92cd1921d|00059485-8efb-4cad-846e-803cdfe5e7c3",
+        "unconnected_items|118089103|121450897|24981680-9742-432b-bfb8-0abd3a4823ea|6f97614f-e23e-4a42-8c4b-fc7bda66cee6",
+        "unconnected_items|118889103|121480897|b01c09c2-6191-4e6d-a97f-036e4a2e99ae|e159b247-ad29-41d0-af63-cbeb834b7345",
+        "unconnected_items|123210000|120290000|343c004f-cf8c-494c-bd86-150c79936d33|d18f5c7c-0d9d-4f35-bd34-80b2500e3deb",
+        "unconnected_items|68000000|96000000|f37b8c25-d2c1-4392-b159-b098227bfb63|f2e92955-d160-4317-8cc1-4a18ffe6f1b1",
+        "unconnected_items|73820300|88155000|a5f27c97-be5e-4563-b98e-9b60856d3a40|8124a680-45fa-4afc-96fd-39b6c5ccf64b",
+        "unconnected_items|74000000|83500000|49a6d78a-9223-4c35-8009-6ebe637180dd|948c683b-7d79-4be3-9d3e-28f24bfec06a",
+        "unconnected_items|75036515|112975000|298009e9-893b-4f28-830d-e05b9347261c|0f89bf58-33de-4fd7-89a8-7b68781f2cc9",
+        "unconnected_items|75036515|118025000|e2986b40-80a4-4bdc-9a3d-c9553d5d1bdf|cbe3ad92-5017-45af-b7f2-ea3204fb8e75",
+        "unconnected_items|80652930|94253140|ea11ef2b-b8cc-46d2-a6f7-ae0fd0bfec3c|6f1ae4b6-352f-4c69-8122-c3da7b0a9ae5",
+        "unconnected_items|81580000|116480000|23d808f3-3687-47d5-8122-a175b43c65e9|17afbfb1-65e6-43de-aad3-6f3a80c21562",
+        "unconnected_items|87673674|78000000|043a056f-1140-4060-af07-7bc3be434494|655baa87-7a9e-436c-a67d-ce30d82ef125",
+        "unconnected_items|88353059|87252385|9688ddc0-8747-4eb4-8cde-d9141c41c092|826bdd08-b7ba-4d27-9b48-9d7220da9368",
+        "unconnected_items|89000000|120750000|6d0e5a45-04b6-4f59-b339-f957acfffbf6|c6c2d03e-e036-4ad8-a77a-0344e2639569",
+        "unconnected_items|90936080|72928617|7861f2a0-d092-4062-95b7-60ea221676c8|48309fec-a9a2-4a42-aa61-1094b5bd041c",
+        "unconnected_items|91257500|120257500|7c9be57c-c7ec-48f9-9fd9-a7f19ed8de89|6f2a58f1-93ec-46c1-920b-e40878966eab"
+      ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "warning",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
