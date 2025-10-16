@@ -1,3 +1,18 @@
+<div align="center">
+<h1 align="center">
+<img src="assets/icons/electronics_icon.png" width=200.0>
+<br>Fiberelectronics
+</h1>
+<h3>Control every pulse, master every micron</h3>
+
+<p align="center">
+<img src="https://img.shields.io/badge/PCB-KiCad-314CB6.svg?style&logo=KiCad&logoColor=white" alt="KiCad" />
+<img src="https://img.shields.io/badge/MCU-ATmega-orange.svg?style&logo=Atmel&logoColor=white" alt="MCU" />
+</p>
+</div>
+
+</h1>
+
 # Fiberprinter Electronics
 
 Dieses Repository enthält die Elektronikentwicklung für den faserverlegenden 3D-Drucker, der im Rahmen einer Diplomarbeit an der HTBLA Kaindorf entwickelt wird. Die Elektronik umfasst sowohl die Steuerung der Druckkopffunktionen als auch die Anbindung an das Hauptsystem mittels eines Raspberry Pi mit **Klipper-Firmware**.
