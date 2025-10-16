@@ -1,6 +1,6 @@
 <div align="center">
 <h1 align="center">
-<img src="assets/icons/electronics_icon.png" width=200.0>
+<img src="main_icon.png" width=200.0>
 <br>Fiberelectronics
 </h1>
 <h3>Control every pulse, master every micron</h3>
